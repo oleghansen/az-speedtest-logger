@@ -88,7 +88,7 @@ namespace SpeedTestLogger
                 {
                     Host = server.Host,
                     Longitude = server.Longitude,
-                    // What are we going to do with this? Country = GetISORegionNameFromEnglishName(server.Country),
+                    Country = GetISORegionNameFromEnglishName(server.Country),
                     Distance = server.Distance,
                     Ping = server.Latency,
                     Id = server.Id
